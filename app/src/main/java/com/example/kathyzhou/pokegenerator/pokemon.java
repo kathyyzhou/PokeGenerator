@@ -7,25 +7,30 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class pokemon extends AppCompatActivity {
+
+public class Pokemon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pokemon);
 
-        final Button generateNew = findViewById(R.id.generate);
+        final Button regenerate = findViewById(R.id.regenerate);
         final Button home = findViewById(R.id.home);
 
         home.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                if (v == home) {
-                    Intent intentMain = new Intent(pokemon.this, MainActivity.class);
-                    pokemon.this.startActivity(intentMain);
-                    Log.i("Content", "Main Layout");
+                if (v  == home) {
+                    Intent intentMain = new Intent(Pokemon.this, MainActivity.class);
+                    Pokemon.this.startActivity(intentMain);
+                    Log.d("button", "Pokemon to Main Layout");
+                } else if (v == regenerate) {
+                    Log.d("button", "New Pokemon Button clicked");
                 }
             }
         });
+
     }
+
 }
 

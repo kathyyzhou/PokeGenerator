@@ -3,4 +3,8 @@
     <string name="button">button</string>
     <string name="home">Button</string>
     <string name="generateAgain">Button</string>
+    <string name="generate">Generate</string>
+    <string name="gohome">home</string>
+    <string name="generate_again">Generate Again</string>
+    <string name="generator">Generator</string>
 </resources>
