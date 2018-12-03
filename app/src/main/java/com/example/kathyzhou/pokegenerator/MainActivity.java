@@ -35,9 +35,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Button generateFirst = findViewById(R.id.generate);
-        final TextView generate = findViewById(R.id.textView2);
-        final ImageView pokemonLogo = findViewById(R.id.imageView4);
-        final ImageView pikachu = findViewById(R.id.imageView5);
 
 
         generateFirst.setOnClickListener(new View.OnClickListener() {
