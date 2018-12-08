@@ -7,4 +7,7 @@
     <string name="gohome">home</string>
     <string name="generate_again">Generate Again</string>
     <string name="generator">Generator</string>
+    <string name="name">name</string>
+    <string name="type">Type</string>
+    <string name="weight">Weight</string>
 </resources>
