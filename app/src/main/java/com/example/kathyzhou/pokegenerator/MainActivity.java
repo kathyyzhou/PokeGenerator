@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         final Button generateFirst = findViewById(R.id.generate);
 
-
+        //button to change views
+        //on click changes to pokemon view
         generateFirst.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 if (v == generateFirst) {
